@@ -1,6 +1,8 @@
 package org.genilson.ufpb.br.GUI.model;
 
-public class Refeicao {
+import java.io.Serializable;
+
+public class Refeicao implements Serializable {
 
     private String nome;
     private String descricao;
@@ -29,4 +31,3 @@ public class Refeicao {
         return nome + " - R$ " + preco;
     }
 }
-
